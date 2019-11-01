@@ -249,7 +249,7 @@ solidity 和 vyper 都会通过编译变成 evm 字节码，被 evm 解释执行
 
 ![-w1155](https://i.loli.net/2019/10/31/XbWfAHI47lorcYF.jpg)
 
-详细的 evm 执行流程可以参考 [evm guide](evm-guide)，模拟整个字节码指令的运行过程。
+详细的 evm 执行流程可以参考 [evm guide][evm-guide]，模拟整个字节码指令的运行过程。
 
 ## future
 
@@ -258,6 +258,7 @@ solidity 和 vyper 都会通过编译变成 evm 字节码，被 evm 解释执行
     - POW -> POS
 - 扩展
     - plasma
+      - []
     - layer 2
     - state channel
 
@@ -279,6 +280,7 @@ solidity 和 vyper 都会通过编译变成 evm 字节码，被 evm 解释执行
         - DEX
         - 借贷
         - 稳定币
+          - [稳定数据货币手册][coin-handbook]，从货币银行学的角度阐述稳定币的一些观点，很有意思，值得一看
     - game
 - 共识
 - 开发者工具
@@ -310,13 +312,15 @@ solidity 和 vyper 都会通过编译变成 evm 字节码，被 evm 解释执行
 
 ## 参考
 
-- [以太坊资源列表](eth-resources)
-- [evm 解释](ethereum_evm_illustrated.pdf)，强烈推荐
-- [master ethereum](eth-book)
-- [虚拟货币市值排行榜](coin-market)
-- [jsonrpc-spec规范](jsonrpc-spec)
-- [awesome evm](awesome-evm)
-- [evm-guide](evm-guide)
+- [以太坊资源列表][eth-resources]，强烈推荐
+- [evm 解释][ethereum_evm_illustrated.pdf]，强烈推荐
+- [ethresearsh][ethresearsh]，以太坊的一些前沿研究讨论
+- [master ethereum][eth-book]
+- [虚拟货币市值排行榜][coin-market]
+- [jsonrpc-spec规范][jsonrpc-spec]
+- [awesome evm][awesome-evm]
+- [evm-guide][evm-guide]
+- [稳定数字货币手册][coin-handbook]
 
 [eth-resources]: https://docs.ethhub.io/
 [eth-book]: https://github.com/ethereumbook/ethereumbook
@@ -325,3 +329,5 @@ solidity 和 vyper 都会通过编译变成 evm 字节码，被 evm 解释执行
 [ethereum_evm_illustrated.pdf]: https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
 [evm-guide]: https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md
 [awesome-evm]: https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List
+[coin-handbook]: https://wisburg.com/articles/180507
+[ethresearsh]: https://ethresear.ch/
